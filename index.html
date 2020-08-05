@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Surya Katari</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+        <li>
+            <a href="#education" class="nav-link">Education</a>
+        </li>
+          <li>
+            <a href="#portfolio" class="nav-link">Projects</a>
+          </li>
+        <li>
+            <a href="#interests" class="nav-link">Interests</a>
+        </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="landing-text">
+        <h1>Surya Katari</h1>
+        <h6>Full stack Application developer</h6>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+          <img src="images/profile.jpeg" alt="" />
+        </div>
+        <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+          </div>
+          <p>
+            I have developed various web applications using
+            Node.js,React.js,MongoDB and used various other frameworks and
+            libraries.I have deployed my web applications in a distibuted
+            environment using AWS.I have used Kafka to achieve highthroughput.
+          </p>
+          <div class="social-media">
+            <ul class="nav-list">
+              <li>
+                <a href="https://github.com/suryakatari97" class="icon-link">
+                  <i class="fab fa-github-square"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/surya-katari-116160171/" class="icon-link">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-youtube-square"></i>
+                </a>
+              </li>
+            <li>
+                <a href="https://www.facebook.com/katari.surya/" class="icon-link">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Education</h1>
+                <!-- <h6>Past and current jobs</h6> -->
+            </div>
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+                <ul>
+                    <li class="date" data-date="2019 - present">
+                        <h1>San Jose Stae University</h1>
+                        <p>
+                            Masters in Software Engineering
+                        </p>
+                    </li>
+    
+                    <li class="date" data-date="2014 - 2018">
+                        <h1>Vellore Institute of technology</h1>
+                        <p>
+                            Electronics and communication engineering
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Projects</h1>
+          <h6>View some of my recent projects</h6>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="100">
+            <img src="images/AMAZON.png" alt="" />
+          </div>
+          <div class="portfolio-description" data-aos="fade-left" data-aos-delay="200">
+            <h1>Amazon.com</h1>
+            <p>
+            • Collaboratively worked with a team of 5 to design and develop Amazon.com with functionalities: product search, product
+            filtering, cart, checkout, order tracking, customer review and rating, manage inventory by sellers etc.
+            <br>
+            • Worked on admin related functionalities and analytics dashboard which contains insights about top viewed products,
+            expenditures by customers, total amount earned by sellers, total number of orders per day etc.
+            <br>
+            • Implemented DB caching using Redis and used Kafka in backend to improve performance of distributed system.
+            <br>
+            • Deployed application on AWS and tested using JMeter, Mocha.
+            <br>
+            • Technologies: React JS, Express.js, REST API, AWS, NodeJS, Kafka, Redis cache.
+
+            </p>
+            <a href="amazon.html" class="cta">View Details</a>
+            <a href="https://github.com/shivanginagpal/Amazon-Simulation" class="icon-link">
+                <i class="fab fa-github-square fa-3x"></i>
+            </a>
+            <a href="https://github.com/suryakatari97" class="icon-link">
+                <i class="fab fa-youtube-square fa-3x"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="300">
+            <h1>Handshake web application</h1>
+            
+            <p>
+            • Built a Service-oriented website. It is a modular, multi-view, secure, single page application (SPA). <br>
+            • Students can sign in/sign up. Add and update profile, Apply to jobs, join events created by companies. Upload media
+            files, view student profiles. Companies can post job openings, events, can view student profiles, manage job application
+            status. <br>
+            • Created databases on both MySQL and MongoDB Atlas. Pub-Sub messaging system using Kafka and used passport JS as
+            middleware authentication. <br>
+            • Deployed application on AWS and tested using JMeter, Mocha. <br>
+            • Technologies: React JS, Redux, Express.js, REST API, AWS, NodeJS, Kafka, MySQL, MongoDB.
+            </p>
+            <a href="handshake.html" class="cta">View Details</a>
+            <a href="https://github.com/suryakatari97/Handshake" class="icon-link">
+                <i class="fab fa-github-square fa-3x"></i>
+            </a>
+            <a href="https://github.com/suryakatari97" class="icon-link">
+                <i class="fab fa-youtube-square fa-3x"></i>
+            </a>
+          </div>
+          <div class="portfolio-img" data-aos="fade-left" data-aos-delay="400">
+            <img src="images/handshake-logo-blue background.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="500">
+            <img src="images/mtaas.jpeg" alt="" />
+          </div>
+          <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+            <h1>Mobile testing as a service platform</h1>
+            <p>
+            • Developed a 3-tier distributed application. Supports three different types of users and implemented respective
+            functionalities. Managers can create projects and select testers by viewing profile. <br>
+            • Testers can request to join projects and write test cases for relevant projects. User’s Dashboard shows insights about
+            project in form of graphs. Used React Chartjs libraries for visualization. <br>
+            • Used selenium to run test scripts and Integrated with Bugzilla to generate Test Report. <br>
+            • Technologies: React JS, Express.js, REST API, SQL DB, NodeJS, Bugzilla, Selenium, Chartjs.
+            </p>
+            <a href="MTAAS.HTML" class="cta">View Details</a>
+            <a href="https://github.com/suryakatari97" class="icon-link">
+                <i class="fab fa-github-square fa-3x"></i>
+            </a>
+            <a href="https://github.com/suryakatari97" class="icon-link">
+                <i class="fab fa-youtube-square fa-3x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="interests" id="interests">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Interests</h1>
+                <h6>Interested in software application development</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill" data-aos="fade-in" data-aos-delay="100">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group fa-5x"></i>
+                    </div>
+                    <h1>Web Application Development</h1>
+                    <p>
+    
+                    </p>
+                </div>
+    
+                <div class="skill" data-aos="fade-in" data-aos-delay="200">
+                    <div class="icon-container">
+                        <i class="fab fa-apple fa-5x"></i>
+                    </div>
+                    <h1>IOS Application Development</h1>
+                    <p>
+    
+                    </p>
+                </div>
+    
+                <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                    <div class="icon-container">
+                        <i class="fab fa-android fa-5x"></i>
+                    </div>
+                    <h1>Android Application Development</h1>
+                    <p>
+    
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          <h6>Let's work together</h6>
+        </div>
+        <form action="MAILTO:surya.katari@sjsu.edu" method="POST" enctype="text/plain" data-aos="fade-up" data-aos-delay="300">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name.."
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email.."
+            required
+          />
+          <label for="subject">Message:</label>
+          <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+    </section>
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up">
+        </i>
+      </div>
+    <p>Have a good day!!
+    </p>
+    <br>
+    <p>
+        surya.katari@sjsu.edu
+    </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
